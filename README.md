@@ -11,7 +11,7 @@ In this context, models can suffer from the STABILITY GAP: \
 ![plot](./images/stability_gap.png)
 
 
-[New metrics](https://arxiv.org/abs/2205.13452) were introduced to compare the models (cit paper metrics):
+[New metrics](https://arxiv.org/abs/2205.13452) were introduced to compare the models:
 - **Average Forgetting**: After each minibatch's training, it computes, for each previous experience’s test, the difference between the accuracy of the current model and the accuracy of the model trained on that experience. It then computes the average on all the previous experiences. The result is a value for each mini-batch. It is possible to plot the trend. \
 ![plot](./images/average_forgetting.png)
 - **Average Minimum Accuracy (min-ACC)**: After each minibatch's training, it computes the accuracy of the current model on each previous experience’s test and averages them. At the end of the experience, it takes the minibatch that minimizes it. Finally, it averages the minimum of the different experiences. The result is a value for each experience. \
