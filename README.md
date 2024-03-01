@@ -55,3 +55,13 @@ You can compute them after the whole execution using the values that Avalanche c
 The second goal is to compare, using the classical CL metrics (BwT, FwT, A Metric and Avg Accuracy) computed after the training on each experience, the strategies applied in the OCL scenario and the same strategies applied in the CL scenario that assumes each experience to be available in one shot and model to be allowed to iterate on them for multiple epochs (you can use 2 or 3 epochs).
 
 You are required to create a single ipynb file. You must include comments for the principal instructions, and you are allowed to import external py modules. Additionally, ensure you thoroughly comment on the comparison results using various plots associated with the different metrics. Finally, again, within each ipynb file, briefly discuss the conclusions that can be drawn from the experiment.
+
+## Note for Students
+
+* Clone the created repository offline;
+* Add your name and surname into the Readme file;
+* Make any changes to your repository, according to the specific assignment;
+* Add a `requirement.txt` file for code reproducibility and instructions on how to replicate the results;
+* Commit your changes to your local repository;
+* Push your changes to your online repository.
+
