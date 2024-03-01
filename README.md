@@ -49,7 +49,7 @@ Use the following metrics to compare the strategies:
 - **Average forgetting** (plot the values after each mini-batch)
 - **Previous experiences’ accuracy** (plot the values after each mini-batch). Use the same values computed for Average Min-Acc without taking the minimum of each experience. 
 - **Current experience accuracy trend**: After each minibatch’s training,  plot the accuracy on the current experience’s test set. 
-- **Next experience’s accuracy**: after each minibatch’s training, plot the accuracy on the next experience’s test set.
+- **Next experience’s accuracy**: plot the accuracy on the next experience’s test set after each minibatch's training. This way, we check if the current training is useful to predict the future entitities.
 You can compute them after the whole execution using the values that Avalanche calculated.
 
 The second goal is to compare, using the classical CL metrics (BwT, FwT, A Metric and Avg Accuracy) computed after the training on each experience, the strategies applied in the OCL scenario and the same strategies applied in the CL scenario that assumes each experience to be available in one shot and model to be allowed to iterate on them for multiple epochs (you can use 2 or 3 epochs).
